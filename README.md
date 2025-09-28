@@ -2,7 +2,7 @@
 
 A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledge building**, and **as-little-as-needed** plugins. It’s the exact structure I use daily for writing, research, projects, and collections like books, games, and videos.
 
-👉 **Companion post:** [*Complete Obsidian vault guide tour*](https://bryanhogan.com/blog/obsidian-vault) — goes deeper into the philosophy and workflows behind this template.
+👉 **Companion post:** [*Complete Obsidian vault guide tour*](https://bryanhogan.com/blog/obsidian-vault) - goes deeper into the philosophy and workflows behind this template.
 
 ---
 
