@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Links": "multitext",
+    "Sources": "multitext",
+    "Active": "checkbox",
+    "Blog Tags": "multitext",
+    "Blog Post Published": "checkbox",
+    "Book Tags": "multitext",
+    "Game Tags": "multitext",
+    "Game Review Published": "checkbox",
+    "Video Tags": "multitext"
+  }
+}
