@@ -142,7 +142,7 @@ I keep the list short to reduce load time and breakage risk.
 * **Lazy Plugin Loader** — Delay heavy plugins to speed up startup (great on mobile).
   [https://github.com/alangrainger/obsidian-lazy-plugins](https://github.com/alangrainger/obsidian-lazy-plugins)
 
-> Since Obsidian **Bases** launched, I no longer need CSS snippets and use Dataview only sparingly.
+> Since Obsidian **Bases** launched, I no longer need CSS snippets and use Dataview only rarely.
 
 ---
 
@@ -217,7 +217,7 @@ Disable "Show file name as title" and use **Filename Heading Sync**.
 
 ## Contributing & customization
 
-* Fork the repo and tailor:
+* Fork the repo and adjust:
   * Rename top-level folders to your taste.
   * Edit templates in `05 - Miscellaneous/Templates/`.
   * Tweak folder overview notes and Bases.
@@ -236,4 +236,4 @@ If you publish your own variation, link it in a PR and I’ll add a "Community V
 * Companion post: [*Complete Obsidian vault guide tour*](https://bryanhogan.com/blog/obsidian-vault)
 * On smart notes / Zettelkasten, MOCs, and bottom-up knowledge building ([see the blog post](https://bryanhogan.com/blog/obsidian-zettelkasten)).
 
-> P.S. If you build something cool with this, I’d love to see it—open an issue with screenshots or links!
+> P.S. If you find this helpful, let me know!
