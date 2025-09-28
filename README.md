@@ -69,9 +69,8 @@ Each top-level item is a folder:
 01 - Zettelkasten/         → Evergreen “knowledge” notes (long-term)
 02 - Projects/             → Project/problem notes (bounded, may end)
 03 - Collections/          → Subfolders: Blog, Books, Clippings, Games, Videos
-04 - Bryan's Briefing/     → Draft + Posted Archive for a monthly newsletter
+04 - Temp Notes/           → Short-lived scratch notes
 05 - Miscellaneous/        → Archive, Attachments, Templates, Someday Notes
-06 - Temp Notes/           → Short-lived scratch notes
 ```
 
 **Rules of thumb**
