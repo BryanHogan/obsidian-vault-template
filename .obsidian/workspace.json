@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a96e9bd3e6a0a7cd",
+        "id": "aa87dd01faa450b1",
         "type": "tabs",
         "children": [
           {
-            "id": "feb802de3b649d0b",
+            "id": "fc548ca4b6c630e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "182d5b96bf3bf463",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "630bab870be553a5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -185,17 +169,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "feb802de3b649d0b",
+  "active": "fc548ca4b6c630e2",
   "lastOpenFiles": [
+    "00 - Bases/Games.base",
+    "03 - Collections/Games/A Space for the Unbound.md",
+    "03 - Collections/Games/Cobalt Core.md",
+    "03 - Collections/Games/Animal Well.md",
+    "05 - Miscellaneous/Templates/03C - Game.md",
+    "05 - Miscellaneous/Templates/03D - Video.md",
     "03 - Collections/03 - Collections.md",
+    "03 - Collections/Games",
+    "Welcome.md",
     "04 - Temporary Notes/04 - Temporary Notes.md",
     "02 - Projects/02 - Projects.md",
     "01 - Zettelkasten/01 - Zettelkasten.md",
-    "Welcome.md",
-    "05 - Miscellaneous/Templates/03D - Video.md",
     "05 - Miscellaneous/Templates/03A - Blog Post.md",
     "05 - Miscellaneous/Templates/03B - Book.md",
-    "05 - Miscellaneous/Templates/03C - Game.md",
     "05 - Miscellaneous/Templates/02B - Project MOC.md",
     "05 - Miscellaneous/Templates/02A - Project Note.md",
     "05 - Miscellaneous/Templates/01B - Zettel MOC.md",

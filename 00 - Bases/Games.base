@@ -1,0 +1,62 @@
+views:
+  - type: cards
+    name: All Games
+    filters:
+      and:
+        - file.folder == "03 - Collections/Games"
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.Cover
+    imageFit: ""
+    imageAspectRatio: 0.45
+  - type: cards
+    name: What To Play
+    filters:
+      and:
+        - file.folder == "03 - Collections/Games"
+        - or:
+            - note["Game Status"] == "Playing"
+            - note["Game Status"] == "Ready To Play"
+    order:
+      - file.name
+      - Interest
+    sort:
+      - property: Interest
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    image: note.Cover
+    imageFit: ""
+    imageAspectRatio: 0.45
+  - type: cards
+    name: Playing
+    filters:
+      and:
+        - file.folder == "03 - Collections/Games"
+        - note["Game Status"] == "Playing"
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.Cover
+    imageFit: ""
+    imageAspectRatio: 0.45
+  - type: cards
+    name: Reviewed
+    filters:
+      and:
+        - file.folder == "03 - Collections/Games"
+        - '!note["Game Rating"].isEmpty()'
+    order:
+      - file.name
+      - Game Rating
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.Cover
+    imageFit: ""
+    imageAspectRatio: 0.45
