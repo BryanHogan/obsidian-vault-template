@@ -46,8 +46,6 @@ If you want a vault that **helps your other work** instead of becoming the work,
 
    * Settings → *Core plugins*: **Templates**, **Properties**, **Daily notes** (optional).
    * Settings → *Templates*:
-
-     * **Template folder**: `05 - Miscellaneous/Templates`
      * Add a **hotkey** for “Insert template”.
 
 3. **(Optional) Install recommended community plugins**
@@ -91,7 +89,7 @@ Each top-level item is a folder:
 * **Pluralize tags** (e.g., `#books`, `#projects`).
 * Dates in **`YYYY-MM-DD`**.
 
-Theme: Obsidian **basic dark**. No CSS snippets.
+Theme: Obsidian **basic dark**.
 
 ---
 
@@ -102,7 +100,7 @@ Theme: Obsidian **basic dark**. No CSS snippets.
 * Both `01 - Zettelkasten` and `02 - Projects` use the **same pattern**:
 
   * Individual notes → Topic pages → MOCs.
-* If you’re new to this style, see the blog’s section on smart notes / Zettelkasten.
+* If you’re new to this style, see the [blog's section on smart notes / Zettelkasten](https://bryanhogan.com/blog/obsidian-vault#smart-notes-bottom-up-note-taking).
 
 ---
 
@@ -141,8 +139,6 @@ I keep the list short to reduce load time and breakage risk.
   [https://github.com/Clemens-E/obsidian-languagetool-plugin](https://github.com/Clemens-E/obsidian-languagetool-plugin)
 * **Lazy Plugin Loader** — Delay heavy plugins to speed up startup (great on mobile).
   [https://github.com/alangrainger/obsidian-lazy-plugins](https://github.com/alangrainger/obsidian-lazy-plugins)
-
-> Since Obsidian **Bases** launched, I no longer need CSS snippets and use Dataview only rarely.
 
 ---
 
@@ -227,7 +223,7 @@ Disable "Show file name as title" and use **Filename Heading Sync**.
   * Better folder overviews using Bases,
   * Further small quality-of-life improvements.
 
-If you publish your own variation, link it in a PR and I’ll add a "Community Variants" list.
+If you publish your own variation, link it in a PR and I'll add a "Community Variants" list.
 
 ---
 
