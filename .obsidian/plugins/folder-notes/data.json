@@ -8,7 +8,7 @@
   "autoCreateFocusFiles": true,
   "autoCreateForAttachmentFolder": false,
   "autoCreateForFiles": false,
-  "enableCollapsing": false,
+  "enableCollapsing": true,
   "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
@@ -53,7 +53,8 @@
     "useActualLinks": false,
     "fmtpIntegration": false,
     "titleSize": 1,
-    "isInCallout": false
+    "isInCallout": false,
+    "useWikilinks": true
   },
   "useSubmenus": true,
   "syncMove": true,
@@ -79,7 +80,7 @@
   "excludeFolderDefaultSettings": {
     "type": "folder",
     "path": "",
-    "id": "5ef88e11-bf94-49d2-976c-9e29313e3597",
+    "id": "7771b7af-3bdc-4fa0-9940-f8840048f3e3",
     "subFolders": true,
     "disableSync": true,
     "disableAutoCreate": true,
@@ -95,7 +96,7 @@
   "excludePatternDefaultSettings": {
     "type": "pattern",
     "path": "",
-    "id": "48ad4740-e528-4030-8d5b-4479bb0ae009",
+    "id": "4d485bd3-bbeb-49d8-963f-da82e93ab9b5",
     "subFolders": true,
     "disableSync": true,
     "disableAutoCreate": true,

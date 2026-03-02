@@ -1,0 +1,47 @@
+filters:
+  and:
+    - file.inFolder("02 - Collections/Games")
+    - file.name != "Games"
+views:
+  - type: table
+    name: All Games (Table)
+  - type: cards
+    name: All Games (Cards)
+    order:
+      - file.name
+    image: note.Cover
+    imageAspectRatio: 0.45
+  - type: cards
+    name: What To Play
+    filters:
+      or:
+        - note["Status (Media)"].contains("Ready")
+        - note["Status (Media)"].contains("Currently")
+    order:
+      - file.name
+      - Interest
+    image: note.Cover
+    imageAspectRatio: 0.45
+  - type: list
+    name: Playing
+    filters:
+      and:
+        - note["Status (Media)"].contains("Currently")
+    order:
+      - file.name
+    image: note.Cover
+    imageAspectRatio: 0.45
+  - type: table
+    name: Done
+    filters:
+      or:
+        - note["Status (Media)"].contains("Finished")
+        - note["Status (Media)"].contains("Stopped")
+    order:
+      - file.name
+      - Game Rating
+      - Game Replayability
+      - Status (Media)
+    sort:
+      - property: Status (Media)
+        direction: ASC

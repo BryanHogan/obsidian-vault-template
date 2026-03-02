@@ -1,0 +1,5 @@
+---
+Type: Location
+aliases:
+Links:
+---

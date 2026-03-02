@@ -1,0 +1,12 @@
+{
+  "userIllegalSymbols": [],
+  "ignoredFiles": {},
+  "ignoreRegex": "",
+  "useFileOpenHook": true,
+  "useFileSaveHook": true,
+  "newHeadingStyle": "Prefix",
+  "replaceStyle": false,
+  "underlineString": "===",
+  "renameDebounceTimeout": 1000,
+  "insertHeadingIfMissing": false
+}

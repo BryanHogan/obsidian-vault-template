@@ -1,0 +1,54 @@
+:root {
+    --lt-minor: #e9b35f;
+    --lt-major: #da615c;
+    --lt-style: #8981f3;
+}
+.lt-minor {
+    --lt-highlight: var(--lt-minor)
+}
+.lt-major {
+    --lt-highlight: var(--lt-major)
+}
+.lt-style {
+    --lt-highlight: var(--lt-style)
+}
+
+.lt-settings-grid {
+    display: inline-grid;
+}
+.lt-dictionary-words {
+    display: flex;
+}
+
+.lt-menu-info {
+    max-width: 200px;
+}
+.lt-menu-message {
+    font-size: 0.8em;
+}
+.lt-menu-title + .lt-menu-message {
+    margin-top: 5pt;
+}
+
+.lt-status-bar-btn {
+    cursor: pointer;
+    &:hover {
+        background-color: var(--background-modifier-hover);
+    }
+}
+
+.lt-loading > svg {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
