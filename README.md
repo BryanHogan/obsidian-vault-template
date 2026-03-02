@@ -10,19 +10,26 @@ A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledg
 
 ## Table of contents
 
-* [Why this template?](#why-this-template)
-* [Quick start](#quick-start)
-* [Folder tour](#folder-tour)
-* [Core conventions](#core-conventions)
-* [Smart notes (bottom-up)](#smart-notes-bottom-up)
-* [Templates](#templates)
-* [Recommended plugins](#recommended-plugins)
-* [Common workflows](#common-workflows)
-* [Syncing between desktop & mobile](#syncing-between-desktop--mobile)
-* [FAQ](#faq)
-* [Contributing & customization](#contributing--customization)
-* [Recent changes](#recent-changes)
-* [License](#license)
+- [README](#readme)
+- [Obsidian Vault Template](#obsidian-vault-template)
+  - [Table of contents](#table-of-contents)
+  - [Why this template?](#why-this-template)
+  - [Quick start](#quick-start)
+  - [Folder tour](#folder-tour)
+  - [Core conventions](#core-conventions)
+  - [Smart notes (bottom-up)](#smart-notes-bottom-up)
+  - [Templates](#templates)
+  - [Recommended plugins](#recommended-plugins)
+  - [Common workflows](#common-workflows)
+    - [Capture a new idea (Zettel)](#capture-a-new-idea-zettel)
+    - [Start a project](#start-a-project)
+    - [Log a book or game](#log-a-book-or-game)
+    - [Draft a blog post](#draft-a-blog-post)
+  - [Syncing between desktop \& mobile](#syncing-between-desktop--mobile)
+  - [FAQ](#faq)
+  - [Contributing \& customization](#contributing--customization)
+  - [Recent changes](#recent-changes)
+    - [Credits \& further reading](#credits--further-reading)
 
 ---
 
@@ -57,7 +64,7 @@ If you want a vault that **helps your other work** instead of becoming the work,
 4. **Start from the folder home notes**
 
    * Open `01 - Note Box/` to see its overview note.
-   * Create your first Zettel with the **Zettel Template**.
+   * Create your first Zettel with the **Zettel Template**, or start a project with the **Project Template**.
 
 ---
 
@@ -66,15 +73,15 @@ If you want a vault that **helps your other work** instead of becoming the work,
 Each top-level item is a folder:
 
 ```
-01 - Note Box/       → Evergreen knowledge notes (long-term)
-02 - Collections/    → Subfolders: Blog, Books, Games, Videos, etc.
+01 - Note Box/       → Zettels (atomic notes), project notes, and evergreen knowledge
+02 - Collections/    → Subfolders: Books, Clippings, Games, etc.
 03 - Temporary/      → Short-lived scratch notes
-04 - Meta/           → Bases (Obsidian’s native views), Templates
+04 - Meta/           → Archive, Attachments, Bases, Templates
 ```
 
 **Rules of thumb**
 
-* Knowledge that should last → **Note Box**
+* Active projects & lasting knowledge → **Note Box**
 * Media & lists → **Collections**
 * One-off / scratch → **Temporary**
 * Vault config & templates → **Meta**
@@ -150,14 +157,14 @@ I keep the list short to reduce load time and breakage risk.
 2. Track scope, decisions, links to related notes.
 3. If the project grows, add a **MoC** to tie its notes together.
 
-### Log a book / game / video
+### Log a book or game
 
-* Use the relevant template in `02 - Collections/` subfolders.
+* Use the relevant template in `02 - Collections/` subfolders (`Books`, `Games`).
 * Add metadata and links to related notes (e.g., `[[Korean]]`, `[[Design Management]]`).
 
 ### Draft a blog post
 
-* Use `Blog Post Template` in `02 - Collections/Blog/`.
+* Use `Blog Post Template` in `02 - Collections/` (typically in a `Blog` subfolder).
 * When publishing to a site (e.g., Astro), you can export or point your site to this folder.
 
 ---
