@@ -46,25 +46,9 @@ If you want a vault that **helps your other work** instead of becoming the work,
 
 ## Quick start
 
-1. **Use this as a template**
-
-   * Click **Use this template** on GitHub or clone the repo.
-   * Open the folder in **Obsidian** (File → Open vault → Select folder).
-
-2. **Enable core features**
-
-   * Settings → *Core plugins*: **Templates**, **Properties**, **Daily notes** (optional).
-   * Settings → *Templates*:
-     * Set template folder to `04 - Meta/Templates`.
-     * Add a **hotkey** for “Insert template”.
-
-3. **(Optional) Install recommended community plugins**
-   See [Recommended plugins](#recommended-plugins).
-
-4. **Start from the folder home notes**
-
-   * Open `01 - Note Box/` to see its overview note.
-   * Create your first Zettel with the **Zettel Template**, or start a project with the **Project Template**.
+1. Download my vault or clone it from the Github repo.
+2. Unzip the `.zip` file to a folder of your choosing.
+3. In Obsidian open the folder as a vault.
 
 ---
 
@@ -73,7 +57,7 @@ If you want a vault that **helps your other work** instead of becoming the work,
 Each top-level item is a folder:
 
 ```
-01 - Note Box/       → Zettels (atomic notes), project notes, and evergreen knowledge
+01 - Note Box/       → Zettels (atomic notes), projects, and MoCs
 02 - Collections/    → Subfolders: Books, Clippings, Games, etc.
 03 - Temporary/      → Short-lived scratch notes
 04 - Meta/           → Archive, Attachments, Bases, Templates
@@ -83,7 +67,7 @@ Each top-level item is a folder:
 
 * Active projects & lasting knowledge → **Note Box**
 * Media & lists → **Collections**
-* One-off / scratch → **Temporary**
+* Remove soon → **Temporary**
 * Vault config & templates → **Meta**
 
 ---
@@ -94,7 +78,7 @@ Each top-level item is a folder:
 * Prefer **one vault** over many.
 * **Minimize folders**; use links, tags, and MOCs for structure.
 * Stick to **standard Markdown** (future-proof).
-* **Pluralize tags** (e.g., `#books`, `#projects`).
+* **Pluralize tags / links** (e.g., `[[books]]`, `[[games]]`).
 * Dates in **`YYYY-MM-DD`**.
 
 Theme: Obsidian **basic dark**.
@@ -104,16 +88,16 @@ Theme: Obsidian **basic dark**.
 ## Smart notes (bottom-up)
 
 * Notes in `01 - Note Box` **link** to related topics with `[[Wiki Links]]`.
-* Topics naturally attract clusters; those clusters become **MOCs** (Map of Content).
+* Topics naturally attract clusters; those clusters become **MoCs** (Map of Content).
 * The pattern: Individual notes → Topic pages → MOCs.
-* A **Project Template** is available for project-scoped work — those notes live in Note Box alongside everything else.
+* A **Project Template** is available for project-scoped work, those notes live in Note Box alongside everything else.
 * If you’re new to this style, see the [blog’s section on smart notes / Zettelkasten](https://bryanhogan.com/blog/obsidian-vault#smart-notes-bottom-up-note-taking).
 
 ---
 
 ## Templates
 
-Enable **Templates** (core plugin) and set the template folder to `04 - Meta/Templates`.
+Enable **Templates** (core plugin) and set the template folder to `04 - Meta/Templates`. Choose a hotkey with which to insert template (I choose `ctrl + r`)
 
 * **Zettel Template** → `04 - Meta/Templates/Zettel Template.md`
 * **MoC Template** → `04 - Meta/Templates/MoC Template.md`
@@ -147,7 +131,7 @@ I keep the list short to reduce load time and breakage risk.
 
 ### Capture a new idea (Zettel)
 
-1. `Ctrl/Cmd + T` (your hotkey) → **Insert** `Zettel Template`.
+1. `Ctrl/Cmd + R` (your hotkey) → **Insert** `Zettel Template`.
 2. Link related topics with `[[Topic]]`.
 3. When a cluster forms, create a **MoC** with `MoC Template`.
 
@@ -160,12 +144,10 @@ I keep the list short to reduce load time and breakage risk.
 ### Log a book or game
 
 * Use the relevant template in `02 - Collections/` subfolders (`Books`, `Games`).
-* Add metadata and links to related notes (e.g., `[[Korean]]`, `[[Design Management]]`).
 
 ### Draft a blog post
 
-* Use `Blog Post Template` in `02 - Collections/` (typically in a `Blog` subfolder).
-* When publishing to a site (e.g., Astro), you can export or point your site to this folder.
+* Use `Blog Post Template` in `02 - Collections/`.
 
 ---
 
@@ -187,7 +169,7 @@ For pros/cons and alternatives, see the my blog's [**how to sync Obsidian**](htt
 Cross-linking is the superpower. Multiple vaults fragment knowledge and slow you down.
 
 **Why so few folders?**
-Folders are "hard" structure. Links, tag links, and MOCs stay flexible as ideas evolve.
+Folders are "hard" structure. Links, tag links, and MoCs stay flexible as ideas evolve.
 
 **Do I need all the plugins?**
 No. Start with **none**. Add only what solves a real problem.
@@ -218,7 +200,7 @@ If you publish your own variation, link it in a PR and I'll add a "Community Var
 
 ## Recent changes
 
-* **Simplified folder structure**: Went from 6 top-level folders to 4. `Zettelkasten` → `Note Box`, `Miscellaneous` → `Meta`, and `Projects` was removed as a dedicated folder (use the Project Template in Note Box instead).
+* **Simplified folder structure**: Went from 6 top-level folders to 4. `Zettelkasten` → `Note Box`, `Miscellaneous` → `Meta`, and `Projects` was removed as a dedicated folder.
 * **Streamlined templates**: Dropped the numbered prefix naming (e.g., `01A - Zettel.md` → `Zettel Template.md`). Added new templates: Location and Script.
 * **Fewer plugins**: Cut the recommended list from 7 to 4 — removed Book Search, Home Tab, and Lazy Plugin Loader.
 
