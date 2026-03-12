@@ -2,9 +2,9 @@
 
 # Obsidian Vault Template
 
-A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledge building**, and **as-little-as-needed** plugins. It’s the exact structure I use daily for writing, research, projects, and collections like books, games, and videos.
+A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledge building**, and **as-little-as-needed** plugins. It's the exact structure I use daily for writing, research, projects, and collections like books, games, and videos.
 
-👉 **Companion post:** [*Complete Obsidian vault guide tour*](https://bryanhogan.com/blog/obsidian-vault) - goes deeper into the philosophy and workflows behind this template.
+**Companion post:** [*Obsidian vault setup tour*](https://bryanhogan.com/blog/obsidian-vault) - goes deeper into the setup and ideas behind this template.
 
 ---
 
@@ -18,10 +18,11 @@ A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledg
   - [Folder tour](#folder-tour)
   - [Core conventions](#core-conventions)
   - [Smart notes (bottom-up)](#smart-notes-bottom-up)
+  - [Navigation \& Bases](#navigation--bases)
   - [Templates](#templates)
   - [Recommended plugins](#recommended-plugins)
   - [Common workflows](#common-workflows)
-    - [Capture a new idea (Zettel)](#capture-a-new-idea-zettel)
+    - [Capture a new insight (Zettel)](#capture-a-new-insight-zettel)
     - [Start a project](#start-a-project)
     - [Log a book or game](#log-a-book-or-game)
     - [Draft a blog post](#draft-a-blog-post)
@@ -57,16 +58,18 @@ If you want a vault that **helps your other work** instead of becoming the work,
 Each top-level item is a folder:
 
 ```
-01 - Note Box/       → Zettels (atomic notes), projects, and MoCs
-02 - Collections/    → Subfolders: Books, Clippings, Games, etc.
-03 - Temporary/      → Short-lived scratch notes
-04 - Meta/           → Archive, Attachments, Bases, Templates
+01 - Note Box/           → Zettels, projects, blog posts, scripts, locations, and MoCs
+02 - Collections/        → Subfolders: Books, Clippings, Games
+03 - Tasks & Reminders/  → Monthly task notes
+04 - Temporary/          → Short-lived scratch notes
+05 - Meta/               → Archive, Attachments, Bases, Templates
 ```
 
 **Rules of thumb**
 
-* Active projects & lasting knowledge → **Note Box**
-* Media & lists → **Collections**
+* Knowledge notes, projects & writing → **Note Box**
+* Media & external content → **Collections**
+* Things to get done this month → **Tasks & Reminders**
 * Remove soon → **Temporary**
 * Vault config & templates → **Meta**
 
@@ -87,26 +90,37 @@ Theme: Obsidian **basic dark**.
 
 ## Smart notes (bottom-up)
 
-* Notes in `01 - Note Box` **link** to related topics with `[[Wiki Links]]`.
-* Topics naturally attract clusters; those clusters become **MoCs** (Map of Content).
-* The pattern: Individual notes → Topic pages → MOCs.
-* A **Project Template** is available for project-scoped work, those notes live in Note Box alongside everything else.
-* If you’re new to this style, see the [blog’s section on smart notes / Zettelkasten](https://bryanhogan.com/blog/obsidian-vault#smart-notes-bottom-up-note-taking).
+The `01 - Note Box` folder is the most important folder in the vault. It contains:
+
+* **Zettel notes** - long-lasting knowledge notes that explain one concept (atomic) and **link** to related topics with `[[Wiki Links]]`.
+* **Project notes** - notes belonging to a project or problem that can end.
+* **Blog posts, scripts, locations** - other note types that also live here alongside everything else.
+
+Topics naturally attract clusters; those clusters become **MoCs** (Map of Content). The pattern: Individual notes → Topic pages → MOCs. Project notes show up in project overviews (using Bases) when they are of type `Project`.
+
+If you're new to this style, see the [blog's section on smart notes / Zettelkasten](https://bryanhogan.com/blog/obsidian-vault#smart-notes-bottom-up-note-taking).
+
+---
+
+## Navigation & Bases
+
+Obsidian [Bases](https://help.obsidian.md/bases) let you display notes in table, list, or card views with filtering and sorting.
+
+This vault uses Bases in combination with the **FolderNotes** plugin to create overview pages. Clicking on `01 - Note Box` or `02 - Collections` opens a folder note that includes Bases listing all relevant MOCs, active projects, and other content — ending with a complete list of all notes in that folder.
+
+Between in-note links, MOCs with Bases, and Obsidian's built-in search, relevant information doesn't get lost.
 
 ---
 
 ## Templates
 
-Enable **Templates** (core plugin) and set the template folder to `04 - Meta/Templates`. Choose a hotkey with which to insert template (I choose `ctrl + r`)
+Enable **Templates** (core plugin) and set the template folder to `05 - Meta/Templates`. Choose a hotkey with which to insert a template (I use `Ctrl + R`).
 
-* **Zettel Template** → `04 - Meta/Templates/Zettel Template.md`
-* **MoC Template** → `04 - Meta/Templates/MoC Template.md`
-* **Project Template** → `04 - Meta/Templates/Project Template.md`
-* **Blog Post Template** → `04 - Meta/Templates/Blog Post Template.md`
-* **Book Template** → `04 - Meta/Templates/Book Template.md`
-* **Game Template** → `04 - Meta/Templates/Game Template.md`
-* **Location Template** → `04 - Meta/Templates/Location Template.md`
-* **Script Template** → `04 - Meta/Templates/Script Template.md`
+Templates used in **Note Box**: `Zettel`, `Project`, `Blog Post`, `MoC`, `Script`
+Templates used in **Collections**: `Book`, `Game`
+Templates used in **Tasks & Reminders**: `Tasks & Reminders`
+
+Additional utility templates: `Location`, `Incoming Links Base Template`, `iFrame Snippet`.
 
 Each template pre-fills sensible **properties** and **sections** so you can start typing immediately.
 
@@ -116,22 +130,22 @@ Each template pre-fills sensible **properties** and **sections** so you can star
 
 I keep the list short to reduce load time and breakage risk.
 
-* **FolderNotes** — Open a folder’s “home note” when clicking the folder.
+* **FolderNotes** — Open a folder's "home note" when clicking the folder.
   [https://github.com/LostPaul/obsidian-folder-notes](https://github.com/LostPaul/obsidian-folder-notes)
 * **Filename Heading Sync** — Keeps the file name in sync with your first `# Heading`.
   [https://github.com/dvcrn/obsidian-filename-heading-sync](https://github.com/dvcrn/obsidian-filename-heading-sync)
-* **Dataview** — Useful for inline JS tricks (e.g., linking today’s note).
-  [https://github.com/blacksmithgu/obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview)
 * **LanguageTool Integration** — Spell/grammar checking.
   [https://github.com/Clemens-E/obsidian-languagetool-plugin](https://github.com/Clemens-E/obsidian-languagetool-plugin)
+* **Periodic Notes** — For monthly Tasks & Reminders notes.
+  [https://github.com/liamcain/obsidian-periodic-notes](https://github.com/liamcain/obsidian-periodic-notes)
 
 ---
 
 ## Common workflows
 
-### Capture a new idea (Zettel)
+### Capture a new insight (Zettel)
 
-1. `Ctrl/Cmd + R` (your hotkey) → **Insert** `Zettel Template`.
+1. `Ctrl/Cmd + O` type name → create if it's a new note → **Insert** `Zettel Template`.
 2. Link related topics with `[[Topic]]`.
 3. When a cluster forms, create a **MoC** with `MoC Template`.
 
@@ -147,7 +161,7 @@ I keep the list short to reduce load time and breakage risk.
 
 ### Draft a blog post
 
-* Use `Blog Post Template` in `02 - Collections/`.
+* Use `Blog Post Template` in `01 - Note Box/`.
 
 ---
 
@@ -159,7 +173,7 @@ My setup:
 * **Backup**: personal GitHub private repo.
 * **Sync**: Google Drive (Drive for Desktop on Windows + DriveSync on Android).
 
-For pros/cons and alternatives, see the my blog's [**how to sync Obsidian**](https://bryanhogan.com/blog/how-to-sync-obsidian) guide.
+For pros/cons and alternatives, see my blog's [**how to sync Obsidian**](https://bryanhogan.com/blog/how-to-sync-obsidian) guide.
 
 ---
 
@@ -174,9 +188,6 @@ Folders are "hard" structure. Links, tag links, and MoCs stay flexible as ideas 
 **Do I need all the plugins?**
 No. Start with **none**. Add only what solves a real problem.
 
-**Where do attachments go?**
-Configure Obsidian's attachment folder in Settings → Files & Links → Default location for new attachments.
-
 **How do I keep titles and file names in sync without showing file names as H1?**
 Disable "Show file name as title" and use **Filename Heading Sync**.
 
@@ -186,7 +197,7 @@ Disable "Show file name as title" and use **Filename Heading Sync**.
 
 * Fork the repo and adjust:
   * Rename top-level folders to your taste.
-  * Edit templates in `04 - Meta/Templates/`.
+  * Edit templates in `05 - Meta/Templates/`.
   * Tweak folder overview notes and Bases.
 
 * PRs welcome for:
@@ -200,6 +211,15 @@ If you publish your own variation, link it in a PR and I'll add a "Community Var
 
 ## Recent changes
 
+**Version 2.0:**
+
+* **Updated folder structure**: Went from 4 top-level folders to 5. Added `03 - Tasks & Reminders` for monthly task notes. `Temporary` and `Meta` renumbered to `04` and `05`.
+* **Heavier use of Bases**: Replaced Dataview with Obsidian's built-in Bases for creating overviews and structure throughout the vault.
+* **Updated plugins**: Removed Dataview, added Periodic Notes for monthly task notes.
+* **Updated templates and properties**: All templates updated with streamlined properties. Added `Tasks & Reminders` template.
+
+**Previous:**
+
 * **Simplified folder structure**: Went from 6 top-level folders to 4. `Zettelkasten` → `Note Box`, `Miscellaneous` → `Meta`, and `Projects` was removed as a dedicated folder.
 * **Streamlined templates**: Dropped the numbered prefix naming (e.g., `01A - Zettel.md` → `Zettel Template.md`). Added new templates: Location and Script.
 * **Fewer plugins**: Cut the recommended list from 7 to 4 — removed Book Search, Home Tab, and Lazy Plugin Loader.
@@ -208,7 +228,7 @@ If you publish your own variation, link it in a PR and I'll add a "Community Var
 
 ### Credits & further reading
 
-* Companion post: [*Complete Obsidian vault guide tour*](https://bryanhogan.com/blog/obsidian-vault)
+* Companion post: [*Obsidian vault setup tour*](https://bryanhogan.com/blog/obsidian-vault)
 * On smart notes / Zettelkasten, MOCs, and bottom-up knowledge building ([see the blog post](https://bryanhogan.com/blog/obsidian-zettelkasten)).
 
 > P.S. If you find this helpful, let me know!
