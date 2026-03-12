@@ -6,7 +6,6 @@ A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledg
 
 **Companion post:** [*Obsidian vault setup tour*](https://bryanhogan.com/blog/obsidian-vault) - goes deeper into the setup and ideas behind this template.
 
-
 ---
 
 ## Table of contents
@@ -39,10 +38,10 @@ A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledg
 
 * **Stable, future-proof**: Sticks to plain Markdown and Obsidian core features.
 * **Lightweight**: Minimal folder count, minimal plugins, zero CSS snippets.
-* **Bottom-up by default**: Notes grow into Maps of Content (MOCs) organically.
+* **Bottom-up**: Notes grow into Maps of Content (MOCs) organically.
 * **Multi-purpose**: Works for writing, research, personal projects, and collections.
 
-If you want a vault that **helps your other work** instead of becoming the work, this is it.
+Built to **help your other work**, instead of becoming the work.
 
 ---
 
