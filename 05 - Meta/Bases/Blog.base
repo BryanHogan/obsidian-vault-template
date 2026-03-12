@@ -1,0 +1,78 @@
+filters:
+  and:
+    - Type == "Blog Post"
+    - file.name != "Blog Post Template"
+views:
+  - type: table
+    name: Blog Posts (drafts)
+    filters:
+      and:
+        - Published == false
+    order:
+      - file.name
+      - Interest
+    sort:
+      - property: Interest
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    summaries: {}
+    columnSize:
+      file.name: 437
+  - type: table
+    name: Published
+    filters:
+      and:
+        - Published == true
+    order:
+      - file.name
+      - Interest
+    sort:
+      - property: Interest
+        direction: DESC
+    summaries: {}
+    columnSize:
+      file.name: 437
+  - type: table
+    name: Bryan's Blog
+    filters:
+      and:
+        - Published == false
+        - Links.contains(link("Bryan's Blog"))
+    order:
+      - file.name
+      - Interest
+    sort:
+      - property: Interest
+        direction: DESC
+    summaries: {}
+    columnSize:
+      file.name: 437
+  - type: table
+    name: Beku.blue
+    filters:
+      and:
+        - Published == false
+        - Links.contains(link("Beku Blue"))
+    order:
+      - file.name
+      - Interest
+    sort:
+      - property: Interest
+        direction: DESC
+    summaries: {}
+    columnSize:
+      file.name: 437
+  - type: table
+    name: All Blog Posts
+    order:
+      - file.name
+      - Interest
+      - Links
+      - Published
+    sort:
+      - property: Interest
+        direction: DESC
+    summaries: {}
+    columnSize:
+      file.name: 437

@@ -1,0 +1,6 @@
+filters:
+  and:
+    - Type == "Clipping"
+views:
+  - type: table
+    name: Table

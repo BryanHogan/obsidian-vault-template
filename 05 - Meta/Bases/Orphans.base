@@ -1,0 +1,19 @@
+filters:
+  and:
+    - Type != "Blog Post"
+    - Type != "Book"
+    - Type != "Bryan's Briefing"
+    - Type != "Game"
+    - Type != "Location"
+    - Type != "MoC"
+    - Type != "Project"
+    - Type != "Script"
+    - Type != "Zettel"
+    - Type != "Tasks & Reminders"
+    - Type != "Clipping"
+views:
+  - type: table
+    name: No Common Type
+    order:
+      - file.name
+      - Type

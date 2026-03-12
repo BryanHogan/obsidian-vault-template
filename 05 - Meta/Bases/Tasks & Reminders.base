@@ -1,0 +1,10 @@
+filters:
+  and:
+    - Type == "Tasks & Reminders"
+    - file.name != "Tasks & Reminders Template"
+views:
+  - type: table
+    name: All Tasks & Reminders
+    sort:
+      - property: file.name
+        direction: DESC

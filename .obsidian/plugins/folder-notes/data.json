@@ -8,7 +8,7 @@
   "autoCreateFocusFiles": true,
   "autoCreateForAttachmentFolder": false,
   "autoCreateForFiles": false,
-  "enableCollapsing": true,
+  "enableCollapsing": false,
   "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,

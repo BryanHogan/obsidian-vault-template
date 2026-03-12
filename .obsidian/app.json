@@ -1,3 +1,9 @@
 {
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "01 - Note Box",
+  "attachmentFolderPath": "05 - Meta/Attachments",
+  "showUnsupportedFiles": true
 }

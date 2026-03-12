@@ -1,0 +1,25 @@
+filters:
+  and:
+    - Type == "Script"
+views:
+  - type: table
+    name: Scripts (drafts)
+    filters:
+      and:
+        - Published == false
+    order:
+      - file.name
+      - Interest
+      - Published
+    sort:
+      - property: Interest
+        direction: DESC
+  - type: table
+    name: All Scripts
+    order:
+      - file.name
+      - Interest
+      - Published
+      - Links
+    columnSize:
+      note.Published: 103

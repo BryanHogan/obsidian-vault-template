@@ -1,0 +1,43 @@
+filters:
+  or:
+    - Type == "Project"
+    - and:
+        - Type == "MoC"
+        - Links.contains(link("Projects"))
+formulas:
+  Backlinks Amount: file.backlinks.length
+views:
+  - type: table
+    name: All (backlinks sort)
+    order:
+      - file.name
+      - formula.Backlinks Amount
+    sort:
+      - property: formula.Backlinks Amount
+        direction: DESC
+    columnSize:
+      file.name: 421
+  - type: cards
+    name: Project MoC's
+    filters:
+      and:
+        - Links.contains(link("Projects"))
+    order:
+      - file.name
+    sort:
+      - property: formula.Backlinks Amount
+        direction: DESC
+    cardSize: 240
+  - type: table
+    name: All (last modified sort)
+    order:
+      - file.name
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: cards
+    name: Active MoC's
+    filters:
+      and:
+        - Active == true
+    cardSize: 310

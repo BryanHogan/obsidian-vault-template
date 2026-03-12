@@ -1,0 +1,46 @@
+filters:
+  and:
+    - or:
+        - '!Links.contains(link("Projects"))'
+        - Links.isEmpty()
+    - or:
+        - Type == "Zettel"
+        - Type == "MoC"
+    - '!file.folder.contains("05 - Meta")'
+formulas:
+  How many Links: file.backlinks.length
+properties:
+  formula.How many Links:
+    displayName: Backlinks Amount
+views:
+  - type: table
+    name: All Zettel (backlinks amount)
+    filters:
+      and:
+        - Type == "Zettel"
+    order:
+      - file.name
+      - formula.How many Links
+    sort:
+      - property: formula.How many Links
+        direction: DESC
+  - type: table
+    name: All Zettel (recently edited)
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: cards
+    name: Zettel MoCs
+    filters:
+      and:
+        - Type == "MoC"
+    order:
+      - file.name
+    sort:
+      - property: formula.How many Links
+        direction: DESC
+    imageAspectRatio: 1
+    cardSize: 200

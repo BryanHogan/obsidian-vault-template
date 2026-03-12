@@ -5,6 +5,11 @@ filters:
 views:
   - type: table
     name: All Games (Table)
+    order:
+      - file.name
+      - Interest
+      - Rating
+      - Status (Media)
   - type: cards
     name: All Games (Cards)
     order:
@@ -20,6 +25,9 @@ views:
     order:
       - file.name
       - Interest
+    sort:
+      - property: Interest
+        direction: DESC
     image: note.Cover
     imageAspectRatio: 0.45
   - type: list

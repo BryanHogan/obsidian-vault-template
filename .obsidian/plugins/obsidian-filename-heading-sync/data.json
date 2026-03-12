@@ -1,7 +1,7 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "",
+  "ignoreRegex": "05 - Meta/*",
   "useFileOpenHook": true,
   "useFileSaveHook": true,
   "newHeadingStyle": "Prefix",

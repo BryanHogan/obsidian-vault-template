@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: Low Content
+    filters:
+      and:
+        - file.size <= 100
+        - '!file.inFolder("05 - Meta")'
+    order:
+      - file.name
+      - file.size
+  - type: table
+    name: No Links
+    filters:
+      and:
+        - '!file.inFolder("05 - Meta")'
+        - file.links.isEmpty()
+        - file.embeds.isEmpty()
+        - '!file.inFolder("02 - Collections")'
+        - Type != "Bryan's Briefing"
+        - Type != "Clipping"
+    order:
+      - file.name
+      - file.backlinks
+      - file.links

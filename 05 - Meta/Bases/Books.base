@@ -1,0 +1,39 @@
+filters:
+  and:
+    - Type == "Book"
+    - file.name != "Book Template"
+views:
+  - type: cards
+    name: All Books
+    image: note.Cover
+    imageAspectRatio: 1.45
+  - type: cards
+    name: What to read
+    filters:
+      or:
+        - note["Status (Media)"].contains("Currently")
+        - note["Status (Media)"].contains("Ready")
+    order:
+      - file.name
+      - Interest
+    sort:
+      - property: Status (Media)
+        direction: ASC
+      - property: Interest
+        direction: DESC
+    image: note.Cover
+    imageAspectRatio: 1.45
+  - type: cards
+    name: Finished
+    filters:
+      or:
+        - note["Status (Media)"].contains("Finished")
+    image: note.Cover
+    imageAspectRatio: 1.45
+  - type: cards
+    name: Stopped
+    filters:
+      or:
+        - note["Status (Media)"].contains("Stopped")
+    image: note.Cover
+    imageAspectRatio: 1.45

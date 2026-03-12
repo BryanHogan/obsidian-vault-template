@@ -1,0 +1,18 @@
+filters:
+  and:
+    - Type == "Bryan's Briefing"
+    - file.name != "Bryan's Briefing Template"
+views:
+  - type: list
+    name: All
+    order:
+      - file.name
+      - Published
+    sort:
+      - property: file.ctime
+        direction: ASC
+      - property: file.mtime
+        direction: ASC
+    columnSize:
+      file.name: 334
+      note.Published: 91

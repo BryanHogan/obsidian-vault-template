@@ -1,5 +1,0 @@
----
-Type: MoC
-aliases:
-Links:
----

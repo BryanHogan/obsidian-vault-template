@@ -1,0 +1,7 @@
+filters:
+  and:
+    - Type == "Location"
+    - file.name != "Location Template"
+views:
+  - type: table
+    name: All Locations

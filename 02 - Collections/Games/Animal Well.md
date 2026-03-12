@@ -4,8 +4,13 @@ Cover: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230
 Interest: 🔥🔥🔥
 Game Tags:
   - Exploration
-  - Pixelart
-Status (Media): Currently
+  - Metrodvenia
+  - Puzzle
+  - Platformer
+  - Pixel Style
+Status (Media): Ready
 Game Replayability:
-Game Rating:
+Rating:
+Published: false
 ---
+# Animal Well

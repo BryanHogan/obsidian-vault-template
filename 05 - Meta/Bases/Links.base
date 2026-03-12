@@ -1,0 +1,11 @@
+views:
+  - type: list
+    name: Incoming Links
+    filters:
+      and:
+        - file.hasLink(this.file)
+    order:
+      - file.name
+    sort:
+      - property: file.mtime
+        direction: DESC

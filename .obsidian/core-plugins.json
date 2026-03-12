@@ -23,7 +23,7 @@
   "outline": true,
   "word-count": true,
   "slides": true,
-  "audio-recorder": false,
+  "audio-recorder": true,
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
