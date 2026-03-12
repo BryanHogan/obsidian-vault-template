@@ -6,6 +6,7 @@ A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledg
 
 **Companion post:** [*Obsidian vault setup tour*](https://bryanhogan.com/blog/obsidian-vault) - goes deeper into the setup and ideas behind this template.
 
+
 ---
 
 ## Table of contents
