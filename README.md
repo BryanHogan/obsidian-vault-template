@@ -2,7 +2,7 @@
 
 # Obsidian Vault Template
 
-A clean, durable Obsidian setup that favors **simplicity**, **bottom-up knowledge building**, and **as-little-as-needed** plugins. It's the exact structure I use daily for writing, research, projects, and collections like books, games, and videos.
+A clean, durable Obsidian Vault setup, focussing on simplicity, bottom-up approaches, using as little as possible plugins or similar adjustments. It's what I use for daily for writing, research, projects and collections for books or games.
 
 **Companion post:** [*Obsidian vault setup tour*](https://bryanhogan.com/blog/obsidian-vault) - goes deeper into the setup and ideas behind this template.
 
