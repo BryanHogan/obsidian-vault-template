@@ -232,3 +232,9 @@ If you publish your own variation, link it in a PR and I'll add a "Community Var
 * On smart notes / Zettelkasten, MOCs, and bottom-up knowledge building ([see the blog post](https://bryanhogan.com/blog/obsidian-zettelkasten)).
 
 > P.S. If you find this helpful, let me know!
+
+## Support my work
+
+Many of my [projects](https://bryanhogan.com/projects) are fully open and free to use. So I appreciate any financial support I can get to continue working on these. You can support me financially here:
+
+[![Sponsor Bryan Hogan](https://img.shields.io/badge/Sponsor-BryanHogan-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/BryanHogan)
